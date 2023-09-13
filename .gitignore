@@ -1,0 +1,9 @@
+# Use "*" followed by the file extension to ignore all files with that extension. The following line will prevent the adding of C files
+*.c
+
+#To ignore certain files, simply write their name(with file extension). For folders(directories), you can put a slash at the end
+# Ignoring the file "ignore_me.txt"
+ignore_me.txt
+
+#Ignoring the folder "ignore_this"
+ignore_this/
