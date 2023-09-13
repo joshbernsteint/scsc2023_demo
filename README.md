@@ -68,4 +68,6 @@ git push
 |   `git reset`     |       Removes all files added by  `git add`                                                   |           
 |   `git status`     |       Gets up to date status of repository <br/>(if it is or not)                            |
 |   `git log`     |       Returns a list of every commit and its message<br/> made to the repository                |
+
+
 View an even longer list [here](https://www.loginradius.com/blog/engineering/git-commands/)
