@@ -30,4 +30,30 @@ git checkout [NAME OF BRANCH]
 
 It's important to note that you cannot switch branches until you commit what you have already changed.
 
+## Adding, Committing, and Pushing
+### Adding
+To add a file to be tracked by git (to prep for committing), you can do either
+```
+git add [name of file]
+```
+to only track one file, or
+```
+git add .
+```
+to add all valid files in the directory
 
+### But what does "valid files" mean?
+In the home directory of the repo, you can include a `.gitignore` file. This file details files or file types to exclude from being tracked by GitHub. See the one in this repo for examples of how it works
+### Committing
+The most basic way to commit your tracked changes is to do the following command:
+```
+git commit -m "[MESSAGE]"
+```
+The message is used to label the changes you have made, and can be anything (but try to be descriptive)
+
+### Pushing
+Pushing updates the online repo with the changes that have been previously committed. Once you have committed changes, you can type:
+```
+git push
+```
+**NOTE:** The first time you push in a repository,it may give you an error saying push requires additional arguments, such as `--set-upstream origin main`. Simply follow the directions the terminal outputs.
