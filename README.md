@@ -43,7 +43,7 @@ git add .
 to add all valid files in the directory
 
 ### But what does "valid files" mean?
-In the home directory of the repo, you can include a `.gitignore` file. This file details files or file types to exclude from being tracked by GitHub. See the one in this repo for examples of how it works
+In the home directory of the repo, you can include a [.gitignore](.gitignore) file. This file details files or file types to exclude from being tracked by GitHub. See the one in this repo for examples of how it works
 ### Committing
 The most basic way to commit your tracked changes is to do the following command:
 ```
@@ -57,3 +57,15 @@ Pushing updates the online repo with the changes that have been previously commi
 git push
 ```
 **NOTE:** The first time you push in a repository,it may give you an error saying push requires additional arguments, such as `--set-upstream origin main`. Simply follow the directions the terminal outputs.
+
+## Additional git commands
+|   Command         |       Description                                             |
+|   :---:           |       :---                                                    |
+|   `git pull`     |        Downloads the newest commit to your local repo          |
+|   `git reset`     |       Removes all files added by  `git add`                   |
+|   `git merge [branch]`     |       Merges `[branch]` with the current wroking branch                               |
+|   `git merge [src] [tar]`     |       Merges branch `[src]` with the branch `[tar]`                                |
+|   `git reset`     |       Removes all files added by  `git add`                                                   |           
+|   `git status`     |       Gets up to date status of repository <br/>(if it is or not)                            |
+|   `git log`     |       Returns a list of every commit and its message<br/> made to the repository                |
+View an even longer list [here](https://www.loginradius.com/blog/engineering/git-commands/)
